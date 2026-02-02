@@ -884,7 +884,7 @@
     "href": "exercices/GPS/GPS.html#question-1",
     "title": "13 - Localisation",
     "section": "Question 1",
-    "text": "Question 1\nTrouvez les coordonnées polaires \\((r,\\theta)\\) des points dont les coordonnées cartésiennes sont données ci-dessous. Donnez l’angle \\(\\theta\\) en radians.\n\n\\((1, 0)\\)\n\nSolution. \\(\\left(r, \\theta\\right) = (1, 0)\\)\n\n\\((-8, 8)\\)\n\nSolution. \\(\\left(r, \\theta\\right) = \\left(8\\sqrt{2}, \\dfrac{3\\pi}{4}\\right)\\)\n\n\\(\\left(-5\\sqrt{3}, -5\\right)\\)\n\nSolution. \\(\\left(r, \\theta\\right) = \\left(10, -\\dfrac{2\\pi}{3}\\right)\\)\n\n\\((0, 0)\\)\n\nSolution. Non définies",
+    "text": "Question 1\nTrouvez les coordonnées polaires \\((r,\\theta)\\) des points dont les coordonnées cartésiennes sont données ci-dessous. Donnez l’angle \\(\\theta\\) en radians.\n\n\\((1, 0)\\)\n\nSolution. \\(\\left(r, \\theta\\right) = (1, 0)\\)\n\n\\((-8, 8)\\)\n\nSolution. \\(\\left(r, \\theta\\right) = \\left(8\\sqrt{2}, \\dfrac{3\\pi}{4}\\right)\\)\n\n\\(\\left(-5\\sqrt{3}, -5\\right)\\)\n\nSolution. \\(\\left(r, \\theta\\right) = \\left(10, -\\dfrac{5\\pi}{6}\\right)\\)\n\n\\((0, 0)\\)\n\nSolution. Non définies",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>13 - Localisation</span>"
     ]
@@ -894,7 +894,7 @@
     "href": "exercices/GPS/GPS.html#question-2",
     "title": "13 - Localisation",
     "section": "Question 2",
-    "text": "Question 2\nTrouvez les coordonnées cartésiennes \\((x, y)\\) des points dont les coordonnées polaires sont données ci-dessous.\n\n\\((2, 135^\\circ)\\)\n\nSolution. \\(\\left(-\\sqrt{2}, \\sqrt{2}\\right)\\)\n\n\\(\\left(8, -\\dfrac{\\pi}{3}\\right)\\)\n\nSolution. \\(\\left(4, 4\\sqrt{3}\\right)\\)",
+    "text": "Question 2\nTrouvez les coordonnées cartésiennes \\((x, y)\\) des points dont les coordonnées polaires sont données ci-dessous.\n\n\\((2, 135^\\circ)\\)\n\nSolution. \\(\\left(-\\sqrt{2}, \\sqrt{2}\\right)\\)\n\n\\(\\left(8, -\\dfrac{\\pi}{3}\\right)\\)\n\nSolution. \\(\\left(4, -4\\sqrt{3}\\right)\\)",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>13 - Localisation</span>"
     ]

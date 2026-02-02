@@ -30,7 +30,7 @@ Trouvez les coordonnées polaires $(r,\theta)$ des points dont les coordonnées 
 3. $\left(-5\sqrt{3}, -5\right)$
 
    ::: solution
-   $\left(r, \theta\right) = \left(10, -\dfrac{2\pi}{3}\right)$
+   $\left(r, \theta\right) = \left(10, -\dfrac{5\pi}{6}\right)$
    :::
 
 4. $(0, 0)$ 
@@ -52,7 +52,7 @@ Trouvez les coordonnées cartésiennes $(x, y)$ des points dont les coordonnées
 2. $\left(8, -\dfrac{\pi}{3}\right)$
 
    ::: solution
-   $\left(4, 4\sqrt{3}\right)$
+   $\left(4, -4\sqrt{3}\right)$
    :::
 
 ## Question 3
