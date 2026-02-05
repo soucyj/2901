@@ -1,0 +1,108 @@
+\documentclass{Preparation}
+\def\titre{Préparation à l'examen 2}
+\def\soustitre{À l'intention des étudiants du cours MAT-2901 : Mathématiques et technologie}
+\def\auteur{J\'er\^ome Soucy}
+
+\def\DateHeure{}
+\def\Ponderation{}
+
+\usepackage{commandesJS}
+\usepackage{array}					% Pour mon tableau de la question 6.
+\usepackage{multirow}				% Pour mon tableau de la question 6.
+\usepackage{graphicx}
+\usepackage{siunitx}
+\sisetup{
+	output-decimal-marker={,},
+	group-separator={\,},
+}
+\begin{document}
+\pagecouverture
+\section{Détails de l'évaluation}
+\begin{itemize}
+	\item Date et heure : Sur le site du cours, rendez-vous dans la section \textit{Évaluations et résultats}~$\rightarrow$~\textit{Examen 2}
+	\item Pondération : Sur le site du cours, rendez-vous dans la section \textit{Évaluations et résultats}~$\rightarrow$~\textit{Examen 2}
+	\item Local : Sur le site du cours, rendez-vous dans la section \textit{Évaluations et résultats}~$\rightarrow$~\textit{Examen 2}
+	\item Matière à l'étude
+		\begin{itemize}
+			\item Démonstration du théorème du point fixe de Banach
+			\item Série 6 : Numération
+			\item Série 7 : Cryptologie (1/3)
+			\item Série 8 : Cryptologie (2/3)
+			\item Série 9 : Cryptologie (3/3)
+		\end{itemize}
+    \item Matériel requis
+		\begin{itemize}
+			\item Crayon et efface
+			\item Règle graduée en centimètres
+            \item Calculatrice autorisée par la \textsc{fsg} (voir le site de cours pour connaître les modèles autorisés)
+		\end{itemize}
+	\item Aucun matériel ne sera fourni avec l'évaluation
+\end{itemize}
+\newpage
+\section{Questions préparatoires}
+\begin{question}
+Montrez que si une contraction sur un espace métrique complet possède un point fixe, alors celui-ci est unique.
+\end{question}
+\begin{question}
+   Donnez la taille, en kilooctets d'une image de résolution $1024\times 768$ dont le mode de description des couleurs utilise 16 teintes de gris.
+\end{question}
+\begin{question}
+  Calculez l'inverse de la matrice
+  \[\left(
+  			\begin{tabular}{cc}
+  				$4$ & $1$\\
+  				$-1$ & $2$
+  			\end{tabular}
+  			\right).
+  \]
+  \end{question}
+  \begin{question}
+   Trouvez la valeur de $d$ où $d:=\textrm{pgcd}\,(3\,072, 96)$.
+   \end{question}
+    
+  \begin{question}
+  Trouvez $x,y\in\Z$ tels que $3\,072x+96y=\textrm{pgcd}\,(3\,072, 96)$.
+  \end{question}
+    
+  \begin{question}
+   Déterminez l'inverse multiplicatif de 7 modulo 41.
+   \end{question}
+    
+  \begin{question}
+  Trouvez la factorisation première de $32\,472$.
+  \end{question}
+  \begin{question}Trouvez le plus petit entier $x$ supérieur ou égal à 1000 satisfaisant l'équation $$4x\equiv 1~(\text{mod}~17).$$
+  \end{question}
+  \begin{question}
+  Résolvez le système de congruence ci-dessous.
+  \begin{eqnarray*}
+      x\equiv & 1~(\text{mod}~8)\\
+      3x-2\equiv & 0~(\text{mod}~7)\
+  \end{eqnarray*}
+   \end{question}
+   \begin{question}
+  Le savant irakien Al-Kindi, qui a vécu au neuvième siècle, s'est intéressé à la cryptologie. Plus précisément, il s'est intéressé au chiffrement par substitution monoalphabétique. Notons $E$ l'ensemble des lettres de l'alphabet\,$\left(E=\{a,b,c,\ldots,z\}\right)$. Une \textbf{permutation} de $E$ est une bijection de $E$ vers $E$. La matrice $2\times 26$ ci-dessous illustre une permutation de $E$. Par exemple, la lettre $a$ est envoyée sur la lettre $g$, la lettre $b$ sur la lettre $f$, etc.
+    \begin{center}
+    {\small
+    \begin{displaymath}\left(
+    \begin{tabular}{llllllllllllllllllll}
+    $a$ & $b$ & $c$ & $d $&$ e $& $f$ & $g$ & $h$ & $i$ & $j$ & $k$ & $l$ & $m$\\
+    $g$ & $f$ & $e $& $d$ & $c$ & $b $&$ a $& $h$ &$ i$ &$ j$ &$ z $&$ x $& $y $ 
+    \end{tabular}
+    \begin{tabular}{llllllllllllllllllll}
+    $n$ & $o$ & $p$ & $q$ & $r$ & $s$ & $t$ & $u$ & $v$ & $w$ & $x$ & $y$ & $z $\\
+    $k$ & $l$ & $m$ & $q$ & $r$ & $s$ & $t$ & $u$ & $v$ & $w $&$ p$ &$ o$ & $n$  
+    \end{tabular}
+    \right)
+    \end{displaymath}}
+    \end{center}
+    Dans le cours, nous avons étudié certaines méthodes de cryptologie par substitution monoalphabétique, notamment le chiffre affine. Étant donnée une lettre de l'alphabet, on lui associe d'abord un nombre $x$ entre 0 et 25. On détermine ensuite un nombre naturel $\alpha\in\{1,2,\ldots,25\}$, vérifiant $\text{pgcd}\,(\alpha,26)=1$, et un nombre naturel $\beta\in\{0,1,2,\ldots,25\}$. On calcule le nombre $y:=\alpha x+\beta \mod 26$; celui compris entre 0 et 25. Le nombre $y$ est alors envoyé vers la lettre de l'alphabet qui lui correspond.
+    
+    \begin{parts}
+     \part Combien y-a-t-il de permutations de $E$?
+     \part Étant donné une transformation affine $\alpha x+\beta$, existe-t-il une permutation de $E$ qui lui est équivalente? Justifiez.
+     \part Étant donné une permutation de $E$, existe-t-il une transformation affine $\alpha x+\beta$ qui lui est équivalente? Justifiez.
+     \part Étant donné une transformation affine $\alpha x+\beta$, existe-il des lettres de l'alphabet qui ne seront pas modifiée par la transformation? Justifiez.
+     \end{parts}
+    \end{question}
+\end{document}

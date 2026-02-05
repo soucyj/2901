@@ -1,0 +1,99 @@
+\documentclass{Preparation}
+\def\titre{Préparation à l'examen 1}
+\def\soustitre{À l'intention des étudiants du cours MAT-2901 : Mathématiques et technologie}
+\def\auteur{J\'er\^ome Soucy}
+
+\def\DateHeure{}
+\def\Ponderation{}
+
+\usepackage{commandesJS}
+\usepackage{array}					% Pour mon tableau de la question 6.
+\usepackage{multirow}				% Pour mon tableau de la question 6.
+\usepackage{graphicx}
+\usepackage{siunitx}
+\sisetup{
+	output-decimal-marker={,},
+	group-separator={\,},
+}
+\begin{document}
+\pagecouverture
+\section{Détails de l'évaluation}
+\begin{itemize}
+	\item Date et heure : Sur le site du cours, rendez-vous dans la section \textit{Évaluations et résultats}~$\rightarrow$~\textit{Examen 1}
+	\item Pondération : Sur le site du cours, rendez-vous dans la section \textit{Évaluations et résultats}~$\rightarrow$~\textit{Examen 1}
+	\item Local : Sur le site du cours, rendez-vous dans la section \textit{Évaluations et résultats}~$\rightarrow$~\textit{Examen 1}
+	\item Matière à l'étude
+		\begin{itemize}
+			\item Série 1 : Introduction aux fractales
+			\item Série 2 : Transformations du plan
+			\item Série 3 : Espaces métriques
+			\item Série 4 : Les points fixes
+			\item Série 5 : Les SIF
+		\end{itemize}
+    \item Matériel requis
+		\begin{itemize}
+			\item Crayon et efface
+			\item Règle graduée en centimètres
+            \item Calculatrice autorisée par la \textsc{fsg} (voir le site de cours pour connaître les modèles autorisés)
+		\end{itemize}
+	\item Aucun matériel ne sera fourni avec l'évaluation
+\end{itemize}
+\newpage
+\section{Questions préparatoires}
+
+\begin{question}
+On considère $C_0$, l’ensemble des couples $(x, y)$ du plan où $y = 0$ et $0 \leq x \leq 1$ qu’on appelle « courbe à l’étape 0 ». À l’étape 1, on enlève le tiers central du segment, pour le remplacer par 3 segments de longueur $\frac{1}{3}$ correspondant à trois côtés d’un carré, de telle sorte qu’on obtienne la figure à l’étape 1 ci-dessous, courbe que nous nommons $C_1$. On répète ce processus.
+\begin{center}
+	\includegraphics[scale=.5]{courbes.png}
+\end{center}
+\begin{parts}
+    \part Après combien d’étapes obtient-on la première fois une courbe dont la longueur dépasse 100 unités ?
+    \part Appelons $C$ la courbe obtenue en prenant la limite de cette construction. Montrez que la longueur de $C$ est infinie.
+    \part Trouvez les plus petites valeurs de $\epsilon_1$ et $\epsilon_2$ telles que le $\epsilon_1$-voisinage de $C_0$ contienne $C_1$ et le $\epsilon_2$-voisinage de $C_1$ contienne $C_0$. Déduisez ensuite la valeur de $d_H(C_0, C_1)$.
+%    \part Trouvez une valeur de $n$ telle que $d_H(C_n, C) \leq \frac{1}{100}$.
+\end{parts}
+\end{question}
+\begin{question}
+On considère l’espace métrique formé de l'ensemble $\mathbb{R}^3$ muni de la distance définie par
+\[ d((x_1, y_1, z_1), (x_2, y_2, z_2)) = |x_1 - x_2| + |y_1 - y_2| + |z_1 - z_2|. \]
+
+\begin{parts}
+    \part Donnez une représentation graphique d’une boule fermée de rayon 1 centrée à l’origine.
+    \part Trouvez le volume de cette boule.
+    \part Pour $n \in \mathbb{N}^*$, on définit une suite de points dans $\mathbb{R}^3$ par :
+    \[ P_n = \left( \sin(n\pi), 1 - e^{-n}, 2n^2 + \frac{1}{n} + 3 \right). \]
+    Est-ce que la suite $(P_n)$ est convergente ? Si c’est le cas, déterminer sa limite.
+\end{parts}
+\end{question}
+\newpage
+\begin{question}
+Dans le problème suivant, on se considère dans le plan muni de la distance euclidienne habituelle. Soit $E = \{(x, y) \in \mathbb{R}^2 : 0 \leq x \leq 1, 0 \leq y < 1\}$ et la suite de points :
+\[ P_n = \left( \frac{1}{n}, 1 - \frac{1}{n^2} \right), \quad (n \geq 1). \]
+
+\begin{parts}
+    \part Montrez que pour $m > n$,
+    \[ d(P_n, P_m) < \sqrt{\frac{1}{n^2} + \frac{1}{n^4}}. \]
+    \part Trouvez un $N(\epsilon) > 0$ tel que $d(P_n, P_m) < \epsilon$ pour $m > n > N(\epsilon)$, et en déduire que $(P_n)$ est une suite de Cauchy.
+    \part Montrez que cette suite ne converge pas dans $(E, d_E)$.
+\end{parts}
+\end{question}
+
+\begin{question}
+On considère l’espace métrique $([0, \infty), d_E)$ et la fonction $f(x) = \frac{\sqrt{x}}{2}$.
+
+\begin{parts}
+    \part Trouvez les points fixes de $f$.
+    \part Est-ce que $f$ est une contraction sur cet espace ? Justifiez.
+\end{parts}
+\end{question}
+\begin{question}
+Soit $D$ la région de $\mathbb{R}^2$ définie par
+\[ D = \{(x, y) \in \mathbb{R}^2 : 0 \leq y \leq 1 - \sqrt{2x - x^2}, 0 \leq x \leq 1 \}. \]
+
+\begin{parts}
+    \part Donnez une représentation graphique de $D$.
+    \part Donnez une représentation graphique du $\epsilon$-voisinage de $D$ pour $\epsilon = \frac{1}{2}$.
+    \part Trouvez l’aire de ce $\epsilon$-voisinage.
+\end{parts}
+\end{question}
+\end{document}
