@@ -1,2 +1,3 @@
 $ENV{'TEXINPUTS'} = '.:..:' . ($ENV{'TEXINPUTS'} || '');
 $pdf_mode = 5;  # 5 = XeLaTeX
+@default_files = grep { !/^solutions\.tex$/ } glob("*.tex");

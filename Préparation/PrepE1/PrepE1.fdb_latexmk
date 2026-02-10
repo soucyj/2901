@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1770747904.36013 "PrepE1.xdv" "PrepE1.pdf" "PrepE1" 1770747904.76711 0
-  "PrepE1.xdv" 1770747904.29522 43404 f6f6152010ae067a8f0a47d87bfbad74 "xelatex"
+["xdvipdfmx"] 1770754227.82964 "PrepE1.xdv" "PrepE1.pdf" "PrepE1" 1770754228.20899 0
+  "PrepE1.xdv" 1770754227.77008 43460 6beba1e24fd183d35ad34562ed899465 "xelatex"
   (generated)
   "PrepE1.pdf"
   (rewritten before read)
-["xelatex"] 1770747903.27424 "PrepE1.tex" "PrepE1.xdv" "PrepE1" 1770747904.76582 0
-  "../Preparation.cls" 1770747875.18028 5224 7a5975f1b1b7cb06739c86eb900cbceb ""
+["xelatex"] 1770754226.80903 "PrepE1.tex" "PrepE1.xdv" "PrepE1" 1770754228.20775 0
+  "../Preparation.cls" 1770752503.69869 5230 678c6083763214d162d07c9fa73a92d9 ""
   "../commandesJS.sty" 1770747875.18038 9245 3246804941a3830e1ad0a3b40cb200aa ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -186,10 +186,10 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "PrepE1.aux" 1770747904.29434 577 4cb485945c042006647bad0a60f3d629 "xelatex"
-  "PrepE1.out" 1770747904.29493 338 edc3365b4e13ad87558a184e605021ba "xelatex"
-  "PrepE1.tex" 1770747875.17859 5297 0dbda6e0a4c21ca985ad7fcfe85e0781 ""
-  "PrepE1.toc" 1770747904.29517 202 620acaaa777e2eb10f2833a2e2f45568 "xelatex"
+  "PrepE1.aux" 1770754227.76923 577 4cb485945c042006647bad0a60f3d629 "xelatex"
+  "PrepE1.out" 1770754227.76981 338 edc3365b4e13ad87558a184e605021ba "xelatex"
+  "PrepE1.tex" 1770753640.50142 5305 e3a06545538aa6eb5955bfa928fc7562 ""
+  "PrepE1.toc" 1770754227.77005 202 620acaaa777e2eb10f2833a2e2f45568 "xelatex"
   "courbes.png" 1770747875.17904 192436 fd8847fe90e333d43f1d293aa2b315bd ""
   "logo.png" 1770747875.1793 54500 9358eb038e043fd9b1a045c59b8d66ec ""
   (generated)

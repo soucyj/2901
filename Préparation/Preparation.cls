@@ -95,8 +95,8 @@ opacity=1,
 contents={\begin{tikzpicture}[remember picture,overlay]
  \path [fill=orange] (-0.5\paperwidth,4) rectangle (0.5\paperwidth,18);
  \node (myfirstpic) at (-0.30\paperwidth,11.5) {\includegraphics[width=5cm]{logo.png}};
- \node[color=black,right] (faculte) at (-0.415\paperwidth,9.7) {\small\textsf{Facult\'e des sciences et g\'enie}};
- \node[color=black,right] (dep) at (-0.415\paperwidth,9.2) {\small\textbf{\textsf{D\'epartement de math\'ematiques et statistique}}};
+ \node[color=black,right] (faculte) at (-0.415\paperwidth,9.7) {\small\textsf{Facult\'e des sciences et de g\'enie}};
+ \node[color=black,right] (dep) at (-0.415\paperwidth,9.2) {\small\textbf{\textsf{D\'epartement de math\'ematiques et de statistique}}};
 \end{tikzpicture}}
 }
 
