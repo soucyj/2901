@@ -1,0 +1,14 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "solutions.xdv" "solutions.pdf" "solutions" 0 -1
+  "solutions.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "solutions.pdf"
+  (rewritten before read)
+["xelatex"] 0 "solutions.tex" "solutions.xdv" "solutions" 0 -1
+  "solutions.aux" 0 -1 0 "xelatex"
+  "solutions.tex" 0 -1 0 ""
+  (generated)
+  "solutions.aux"
+  "solutions.log"
+  "solutions.xdv"
+  (rewritten before read)
