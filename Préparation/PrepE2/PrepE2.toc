@@ -1,0 +1,4 @@
+\xpg@aux {}{french}
+\contentsline {section}{\numberline {1}Détails de l'évaluation}{1}{section.0.1}%
+\contentsline {section}{\numberline {2}Questions préparatoires}{2}{section.0.2}%
+\contentsfinish 
