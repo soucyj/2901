@@ -24,7 +24,7 @@ Trouvez le squelette d’un triangle arbitraire.
 
 ## Question 4
 
-Trouvez deux ensembles du plan qui ont le segment $\{(x, 0) : x \in [-1, 1]\}$ comme squelette.
+Trouvez deux ensembles du plan qui ont le segment $\{(x, 0) : x \in ]-1, 1[\}$ comme squelette.
 
 ## Question 5
 
