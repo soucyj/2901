@@ -994,7 +994,7 @@
     "href": "exercices/CG/CG.html#question-4",
     "title": "14 - Couteau gamma",
     "section": "Question 4",
-    "text": "Question 4\nTrouvez deux ensembles du plan qui ont le segment \\(\\{(x, 0) : x \\in [-1, 1]\\}\\) comme squelette.",
+    "text": "Question 4\nTrouvez deux ensembles du plan qui ont le segment \\(\\{(x, 0) : x \\in ]-1, 1[\\}\\) comme squelette.",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>14 - Couteau gamma</span>"
     ]
